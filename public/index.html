@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible">
     <title>Document</title>
     <link rel="stylesheet"  href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>  <!-- 해당 내용을 넣어야 정상작동함-->
 </head>
-<body>
+<body class="text-gray-700">
 <div>  <!-- content srapper -->
     <div>
         <nav>
             <div>
-                <h1>
+                <h1 class="font-bold uppercase">
                     <a href="/">Food Ninja</a>
                 </h1>
             </div>
@@ -42,11 +43,12 @@
             <a href="#"> Sign up</a>
         </div>
         <header>
-            <h2> 레시피</h2>
-            <h3> For Ninjas </h3>
+            <!--https://v2.tailwindcss.com/docs/font-size 해당 문서를 참조 -->
+            <h2 class="text-gray-700 text-6xl font-semibold"> 레시피</h2>
+            <h3 class="text-2xl font-semibold"> For Ninjas </h3>
         </header>
         <div>
-            <h4> Latest Recipes</h4>
+            <h4  class="font-bold"> Latest Recipes</h4>
             <!-- cards go here -->
             <div>
                 <img src="img/img1.jpeg" alt="img1">
@@ -57,7 +59,7 @@
             </div>
         </div>
         <!-- end div 3 stop -->
-         <h4> Most popular </h4>
+         <h4 class="font-bold"> Most popular </h4>
         <div>
             <!-- cards go here -->
             <div>
