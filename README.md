@@ -3,10 +3,9 @@ tailwind를 공부하고 기록한 레포입니다
 
 Lesson 11 apply directive
 1.원래에는 
-'''
-<div class="bg-white rounded overflow-hidden shadow-md relative">
-'''
-
+<pre>
+div class="bg-white rounded overflow-hidden shadow-md relative"
+</pre>
 이러한 내용을 넣어야했지만 
 
 2. 이걸 조금더 간결하게 
