@@ -1,27 +1,11 @@
 # tailwind-css-study
 tailwind를 공부하고 기록한 레포입니다
 
-Lesson 11 apply directive
-1.원래에는 
+Lesson 12 Grids <br>
+
+1. grid를 사용하면 테이블처럼 나눠서 사용할수있음
+2. grid grid-cols-(나눌 컬럼수 ) gap-10 (사이 간격을 얼마나 거리를 둘건지 )
+
 <pre>
-div class="bg-white rounded overflow-hidden shadow-md relative"
+div class="mt-8 grid lg:grid-cols-3 gap-10"
 </pre>
-이러한 내용을 넣어야했지만 
-
-2. 이걸 조금더 간결하게 
-src/styles.css에다가 @apply를 이용하여
-
-<pre> 
-
-.card{
-    @apply bg-white rounded overflow-hidden shadow-md relative;
-}
-
-.badge{
-    @apply bg-emerald-50 text-gray-400 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2;
-}
-</pre>
-
-이런식으로 간결화 시키면 재사용성이 올라감
-
-

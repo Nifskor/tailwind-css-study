@@ -8,10 +8,10 @@
     <link rel="stylesheet"  href="styles.css">
     <script src="https://cdn.tailwindcss.com"></script>  <!-- 해당 내용을 넣어야 정상작동함-->
 </head>
-<body class="text-gray-700 font-body">
+<body class="text-gray-600 font-body">
     
-<div>  <!-- content srapper -->
-    <div>
+<div class="">  <!-- content srapper -->
+    <div class="">
         <nav>
             <div>
                 <h1 class="font-bold uppercase p-4 border-b border-gray-300">
@@ -39,7 +39,7 @@
         </nav>
     </div>
 </div> <!-- end nav -->
-    <main class="px-16 py-16 bg-gray-100">
+    <main class="px-16 py-16 bg-gray-100 md:col-span-2">
         <div class="flex justify-center md:justify-end bg-gray-100">
             <a href="#"> Login</a>
             <a href="#" class='ml-3'> Sign up</a>
@@ -53,7 +53,7 @@
         <div>
             <h4  class="font-bold mt-12 pb-2 border-b border-gray-200"> Latest Recipes</h4>
             <!-- cards go here -->
-            <div class="mt-8">
+            <div class="mt-8 grid lg:grid-cols-3 gap-10">
                 <div class="card">
                     <img  src="img/img1.jpeg" alt="img1" class="w-full h-32 sm:h-48 object-cover">
                     <div class="m-4">
@@ -64,7 +64,7 @@
                         <span>25mins </span>
                     </div>
                 </div>
-            </div>
+            
             <!-- other cards -->
             <div class="card">
                 <img  src="img/img2.jpeg" alt="img2" class="w-full h-32 sm:h-48 object-cover">
@@ -76,19 +76,19 @@
                     <span>25mins </span>
                 </div>
             </div>
-        </div>
+        
            <!-- other cards -->
            <div class="card">
             <img  src="img/img3.jpeg" alt="img3" class="w-full h-32 sm:h-48 object-cover">
             <div class="m-4">
-            <span class="font-bold"> 김치</span>
+            <span class="font-bold"> 사진</span>
             <span class="block gray-500 text-sm">Recipe by Mario</span>
             </div>
             <div class="badge">
                 <span>25mins </span>
             </div>
         </div>
-    </div>
+        
         </div> <!-- mt-8 end div -->
         <!-- end div 3 stop -->
          <h4 class="font-bold mt-12 pb-2 border-b"> Most popular </h4>
