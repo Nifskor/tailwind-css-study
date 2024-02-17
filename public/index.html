@@ -39,17 +39,12 @@
         </nav>
     </div>
 </div> <!-- end nav -->
-    <main class="px-16 py-16">
-        <div class="flex justify-center md:justify-end">
+    <main class="px-16 py-16 bg-gray-100">
+        <div class="flex justify-center md:justify-end bg-gray-100">
             <a href="#"> Login</a>
             <a href="#" class='ml-3'> Sign up</a>
         </div>
 
-        <div class="flex items-center justify-center">
-            <div class="bg-red-500 h-4 w-6"></div>
-            <div class="bg-blue-500 h-8 w-6"></div>
-            <div class="bg-green-500 h-12 w-6"></div>
-        </div>
         <header>
             <!--https://v2.tailwindcss.com/docs/font-size 해당 문서를 참조 -->
             <h2 class="text-gray-700 text-6xl font-semibold"> 레시피</h2>
@@ -59,10 +54,12 @@
             <h4  class="font-bold mt-12 pb-2 border-b border-gray-200"> Latest Recipes</h4>
             <!-- cards go here -->
             <div class="mt-8">
-                <img  src="img/img1.jpeg" alt="img1">
-                <div>
-                    <span> 5 Bean Chilli stew</span>
-                    <span>Recipe by Mario</span>
+                <div class="bg-white rounded overflow-hidden shadow-md ">
+                    <img  src="img/img1.jpeg" alt="img1" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                    <span class="font-bold"> 5 Bean Chilli stew</span>
+                    <span class="block gray-500 text-sm">Recipe by Mario</span>
+                    </div>
                 </div>
             </div>
         </div>
